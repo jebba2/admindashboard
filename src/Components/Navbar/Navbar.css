@@ -1,0 +1,52 @@
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+img{
+    margin-left: 10px;
+    width: 64px;
+    height: 64px;
+    max-height: 64px;
+    object-fit: contain;
+}
+
+.name{
+    font-size: 35px; 
+    font-weight: 600;
+    color: #fff;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 3.0;
+    letter-spacing: 0.0075em;
+} 
+
+li{
+    margin: 10px 20px;
+    list-style: none;
+}
+
+.dashboard{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: large;
+}
+
+.dashboard:hover{
+    text-decoration: underline;
+}
+
+.dashboard:visited{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    nav{
+        flex-direction: column;
+    }
+
+}
+

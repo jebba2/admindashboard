@@ -1,0 +1,27 @@
+.UniversityRelatedForm-container{
+    width: 100%;
+}
+
+.UniversityRelatedForm{
+    font-size: large;
+}
+
+.buttons{
+    margin: 20px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.createthesection {
+    display: inline-block; 
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: rgb(0, 51, 160);
+    background-color: rgb(0, 51, 160);
+    font-weight: lighter;
+    font-size: medium;
+  }
+  
